@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  font-family: italic;
+  border: border-box;
+  }
+
+  a{
+    color: white;
+  }
+
+.navbar {
+    height: 60px;
+    background-color: #1f2138;
+    color: #f6f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+  font-family: italic;
+  font-size: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  }
+.border {
+  border: 2px solid transparent;
+  
+}
+.border:hover{
+  border: 2px solid white;
+}
+
+/** box2 **/
+
+.add-first{
+  color: #cccccc;
+  font-size: 0.85rem;
+  
+  
+}
+.add-second{
+  font-size: 1rem;
+
+
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  justify-content: center
+
+}
+
+/** box3 **/
+
+.nav-search {
+  display:flex;
+  justify-content: space-evenly;
+  background-color: #f70404;
+  width: 650px;
+  height: 40px;
+  border-radius: 4px;
+
+}
+
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  align-items: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input {
+  width:100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #050901;
+  
+}
+.nav-search:hover{
+border: 2px solid #f70404;
+
+}
+/**box4**/
+ 
+.nav-singhin{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+color: #fff;
+
+}
+/** box5 **/
+
+span{
+ font-size: 0.85rem;
+ font-style: italic;
+ 
+}
+/**box6**/
+
+.nav-cart i{
+font-size: 30px;
+}
+.nav-cart{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+/**box7**/
+.Right i{
+  transition: 1.4s ease-in-out;
+}
+.Right i:hover{
+  transform: rotate(360deg);
+}
+
+/**fetured**/
+
+.featured{
+  width: 100%;
+  height: 60vh;
+  background:linear-gradient(to right, rgba(184, 210, 211, 0.8) 30%,rgba(255, 255, 255, 0.2)),
+   url("\new img/ss.jpg");
+  background-size: cover;
+  background-position: top;
+  position:relative;
+}
+.featured-text{
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  font-family: 'Akaya Kanadaka',cursive;
+}
+.featured-text button{
+  padding: 10px 2px;
+  border: none;
+  outline: none;
+  background-color: var(--secondary);
+  margin: 20px 0px;
+  color: white;
+}
+.featured-text image{
+  height: 100px;
+}
+
+.latest{
+  padding: 50px 100px;
+}
+/** product**/
+
+.product-intro {
+  text-align: center;
+}
+.product-intro h1 {
+  color: var(--primary);
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.product-intro h1 span{
+  color: var(--secondary);
+}
+.product-intro p{
+  color: green;
+  margin: 15px 0;
+}
+/**cards**/
+.card-container{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: 4rem 0;
+}
+.card-container .card{
+
+  flex-basis: 20%;
+  padding: 0.8rem;
+  position: relative;
+}
+.card img{
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+.card i{
+  color: goldenrod;
+  margin: 10px 0;
+}
+.card:hover img, .card:hover h1{
+  width: 80%;
+  color: var(--primary);
+}
+.trends{
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0.01);
+  
+}
+.trends .swiper {
+  width: 100%;
+  padding: 0;
+}
+
+.trends .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.trends .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/**footer**/
+footer{
+  height: 300px;
+  background-color:#1f2138;;
+  color: #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  
+  flex-wrap: wrap;
+  text-align: center;
+  
+  }
+
+footer div{
+  flex-basis: 30%;
+}
+
+footer p{
+  font-size: 1rem;
+}
+
+footer i{
+  margin: 0px 5px;
+  padding: 0px;
+  transition: 1.4s ease-in-out;
+}
+footer i:hover{
+  transform: rotate(360deg);
+}
+
+  
+
+
+/**login section**/
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

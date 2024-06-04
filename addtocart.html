@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addtocart</title>
+
+    <style>
+ /**cart option**/
+ *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     font-family:italic
+            
+}
+ body
+{
+            
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+ background: #95afdb
+}
+
+.cart-option{
+  display: flex;
+  width: 70%;
+  margin-bottom: 20px;
+}
+#root{
+  width: 25%;
+  display: grid;
+  grid-template-columns: repeat(200, 12fr);
+  padding: 0;
+  
+}
+.sidebar{
+  width: 40%;
+  border-radius: 5px;
+  background-color: #1f2138;
+  margin-left: 20px;
+  padding: 15px;
+  text-align: center;
+}
+.carto{
+  background-color: #fff;
+  border-radius: 3px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color:black;
+  display: flex;
+  align-items: center;
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  border-top: 1px solid white;
+}
+    </style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <!--cart options-->
+<div class="cart-option">
+    <div id="root"></div>
+    <div class="sidebar">
+        <div class="carto"><P>My Cart</P></div>
+        <div id="cartItem">Your Cart is Empty</div>
+        <div class="foot">
+            <h3>Total</h3>
+            <h2 id="total-price">rs 0.00</h2>
+        </div>
+    </div>
+
+   </div>
+   <!--end cart options-->
+   <script></script>
+</body>
+</html>
